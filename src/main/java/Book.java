@@ -1,13 +1,13 @@
 class Book {
     private String title;
     private String author;
-    private String isbn;
+    private String ISBN;
 
 
     public Book(String title, String author, String isbn) {
         this.title = title;
         this.author = author;
-        this.isbn = isbn;
+        this.ISBN = isbn;
     }
     public String getTitle() {
         return this.title;
@@ -16,6 +16,6 @@ class Book {
         return this.author;
     }
     public String getISBN() {
-        return this.isbn;
+        return this.ISBN;
     }
 }
