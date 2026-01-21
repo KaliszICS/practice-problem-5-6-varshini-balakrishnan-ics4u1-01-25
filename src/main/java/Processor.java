@@ -12,10 +12,10 @@ class Processor {
     public String getModel() {
         return this.model;
     }
-    public String getSpeedGHz() {
+    public double getSpeedGHz() {
         return this.speedGHz;
     }
     public String toString() {
-        return "Processor: " + this.model + ", "  this.speedGHz + " GHz";
+        return "Processor: " + this.model + ", "  + this.speedGHz + " GHz";
     }
 }

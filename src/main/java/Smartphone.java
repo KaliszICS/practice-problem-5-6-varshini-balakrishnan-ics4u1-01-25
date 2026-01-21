@@ -31,7 +31,7 @@ class Smartphone {
         return "Powering off " + this.brand + " " + this.model;
     }
     public void chargeBattery() {
-    this.battery.charge()
+    this.battery.charge();
     }
     public String runApp(String appName) {
         if(this.display.getIsOn()) {
@@ -43,7 +43,7 @@ class Smartphone {
     public void upgradeComponent(Battery newBattery) {
         this.battery = newBattery;
     }
-    public void upgradeComponent(Display new Display) {
+    public void upgradeComponent(Display newDisplay) {
         this.display = newDisplay;
     }
     public void upgradeComponent(Processor newProcessor) {

@@ -4,7 +4,7 @@ class Battery {
 
     public Battery(int capacityMAh) {
         this.capacityMAh = capacityMAh;
-        this isCharged = false;
+        this.isCharged = false;
     }
     public void charge() {
         this.isCharged = true;

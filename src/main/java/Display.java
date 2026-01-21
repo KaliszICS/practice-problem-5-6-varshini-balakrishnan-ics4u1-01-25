@@ -15,7 +15,7 @@ class Display {
     }
     public String turnOff() {
         this.isOn = false;
-        return "Display turned off." 
+        return "Display turned off.";
     }
     public double getSizeInches() {
         return this.sizeInches;
