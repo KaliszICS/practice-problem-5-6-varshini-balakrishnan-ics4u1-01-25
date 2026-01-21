@@ -16,6 +16,6 @@ class Processor {
         return this.speedGHz;
     }
     public String toString() {
-        return "Processor: " + this.model + ", "  + this.speedGHz + " GHz";
+        return "Processor: " + this.model + ", " + this.speedGHz + " GHz";
     }
 }

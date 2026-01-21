@@ -33,7 +33,7 @@ public void removeBook(String isbn) {
         int count = 0;
         for(int i = 0; i < this.books.length; i ++) {
             if(this.books[i].getTitle().equals(title)) {
-                count++;
+                count++
             }
         }
         Book[] matches = new Book[count];
